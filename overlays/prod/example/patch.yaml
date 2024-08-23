@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: uptime-kuma
   name: uptime-kuma
 spec:
   replicas: 2
