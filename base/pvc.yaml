@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  namespace: uptime-kuma
+  name: uptime-kuma-data
+spec:
+  storageClassName: csi-cephfs-sc
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 1Gi
