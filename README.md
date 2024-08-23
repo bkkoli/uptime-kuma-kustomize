@@ -14,7 +14,7 @@ https://hub.docker.com/r/louislam/uptime-kuma
 kubectl apply -f ./base
 ```
 - customize for env
-Please refer an examples located in "./overlays/prod/example"
+> Please refer an examples located in "./overlays/prod/example"
 ```bash
 kubectl apply -f ./overlays/prod/example
 ```
